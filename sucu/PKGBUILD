@@ -1,6 +1,6 @@
 # Maintainer: Ali Haydar Sucu <alihaydarsucu@gmail.com>
 pkgname=sucu
-pkgver=1.0.0
+pkgver=0.3.0
 pkgrel=1
 pkgdesc="A command-line assistant for Arch Linux beginners to explore and manage essential system tools and information"
 arch=('any')
