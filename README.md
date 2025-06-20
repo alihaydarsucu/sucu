@@ -25,6 +25,14 @@ New users often feel overwhelmed when transitioning to Arch Linux due to its min
 
 It’s not a full-featured desktop environment tool or a system control center. It’s a purposeful, minimal interface to give users an intuitive entry point into their systems without sacrificing transparency or learning opportunity.
 
+## 📸 Screenshot
+
+Below is a preview of the main menu interface:
+
+<p align="center">
+    <img src="sucu_main_menu.png" alt="sucu main menu screenshot" width="600"/>
+</p>
+
 ## 🧰 Dependencies
 
 **Required:**
@@ -87,10 +95,6 @@ Use the arrow keys or type your selection to navigate through the available modu
 ## 🛡️ License
 
 MIT License — feel free to use, modify, and contribute.
-
-## 🙏 Acknowledgements
-
-This project is inspired by the challenges new users face when transitioning to Arch Linux. It's built with care to offer both utility and guidance.
 
 ## 🤝 Contributing
 
