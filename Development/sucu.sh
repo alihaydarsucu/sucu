@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # SUCU - Advanced System Management Tool
-# Version: 2.1
+# Version: 0.2
 # Designed for Arch Linux based systems
 
 # Color and Style Definitions
