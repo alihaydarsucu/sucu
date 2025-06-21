@@ -11,7 +11,8 @@ depends=(
   'procps-ng' 'systemd' 'iproute2' 'iputils' 'shadow'
   'pacman' 'coreutils' 'gawk' 'sed' 'grep'
 )
-source=("sucu")
+
+source=("$pkgname::git+https://github.com/alihaydarsucu/sucu.git")
 md5sums=('SKIP')
 
 package() {
