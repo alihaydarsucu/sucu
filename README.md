@@ -68,7 +68,9 @@ cd sucu
 makepkg -si
 ```
 
-### 💻 Manual:
+### 💻 Manual (Fallback Only):
+
+> **Note:** You usually do **not** need this step. Use it **only if** `makepkg -si` fails or is unavailable.
 
 ```bash
 chmod +x sucu
@@ -89,7 +91,7 @@ Once installed, just run:
 sucu
 ```
 
-Use the arrow keys or type your selection to navigate through the available modules.
+Type `sucu` for main menu, or type `sucu [command]` just like the example in the main menu image above. Add `-tr` to see the Turkish versions. Navigation is done by typing numbers or commands.
 
 ## 🛡️ License
 
@@ -97,4 +99,4 @@ MIT License — feel free to use, modify, and contribute.
 
 ## 🤝 Contributing
 
-Issues, feedback, and pull requests are welcome! Please open an issue or create a PR on [GitHub](https://github.com/alihaydarsucu/sucu).
+Issues, feedback, and pull requests are welcome! Please open an [issue](https://github.com/alihaydarsucu/sucu/issues) or create a [PR](https://github.com/alihaydarsucu/sucu/pulls) on GitHub.

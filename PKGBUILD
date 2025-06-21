@@ -17,4 +17,5 @@ md5sums=('SKIP')
 
 package() {
   install -Dm755 "$srcdir/sucu" "$pkgdir/usr/bin/sucu"
+  install -Dm644 "$srcdir/LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
