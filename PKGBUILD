@@ -11,7 +11,7 @@ depends=(
   'procps-ng' 'systemd' 'iproute2' 'iputils' 'shadow'
   'pacman' 'coreutils' 'gawk' 'sed' 'grep'
 )
-source=("$pkgname-$pkgver")
+source=("$pkgname")
 md5sums=('SKIP')
 
 package() {

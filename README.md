@@ -65,7 +65,7 @@ All required dependencies are managed automatically during installation.
 
 ```bash
 git clone https://github.com/alihaydarsucu/sucu.git
-cd sucu/sucu
+cd sucu
 makepkg -si
 ```
 
