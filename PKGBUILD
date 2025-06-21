@@ -2,7 +2,7 @@
 pkgname=sucu
 pkgver=0.3.0
 pkgrel=1
-pkgdesc="A command-line assistant for Arch Linux beginners..."
+pkgdesc="A command-line assistant for Arch Linux beginners"
 arch=('any')
 url="https://github.com/alihaydarsucu/sucu"
 license=('MIT')
@@ -12,9 +12,9 @@ depends=(
   'pacman' 'coreutils' 'gawk' 'sed' 'grep'
 )
 
-source=("$pkgname::git+https://github.com/alihaydarsucu/sucu.git")
+source=("local://sucu")
 md5sums=('SKIP')
 
 package() {
-  install -Dm755 "$srcdir/$pkgname/sucu" "$pkgdir/usr/bin/sucu"
+  install -Dm755 "$srcdir/sucu" "$pkgdir/usr/bin/sucu"
 }
