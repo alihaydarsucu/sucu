@@ -15,5 +15,5 @@ source=("$pkgname")
 md5sums=('SKIP')
 
 package() {
-  install -Dm755 "$srcdir/$pkgname-$pkgver/sucu" "$pkgdir/usr/bin/sucu"
+  install -Dm755 "$srcdir/$pkgname/sucu" "$pkgdir/usr/bin/sucu"
 }
