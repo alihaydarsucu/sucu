@@ -13,7 +13,7 @@ depends=(
 )
 
 source=("sucu" "LICENSE")
-md5sums=('SKIP')
+md5sums=('SKIP' 'SKIP')
 
 package() {
   install -Dm755 "$srcdir/sucu" "$pkgdir/usr/bin/sucu"
