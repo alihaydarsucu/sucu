@@ -1,9 +1,8 @@
-<h1 align="center">
-    <img src="https://img.icons8.com/?size=100&id=uIXgLv5iSlLJ&format=png&color=000000" alt="Arch Linux Logo" width="60" height="60"/>
+<p align="center">
+    <img src="Readme Files/logo.png" alt="Arch Linux Logo" width="120" height="120"/>
+</p>
 
-<span style="color:cyan; font-size:2em;"><b>sucu</b></span>
-
-</h1>
+---
 
 **sucu** is a command-line assistant for new Arch Linux users that simplifies access to essential system information, package management, monitoring tools, and basic tutorials. It provides a structured and user-friendly interface for navigating common administrative tasks in the terminal.
 
