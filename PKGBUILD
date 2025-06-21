@@ -2,35 +2,18 @@
 pkgname=sucu
 pkgver=0.3.0
 pkgrel=1
-pkgdesc="A command-line assistant for Arch Linux beginners to explore and manage essential system tools and information"
+pkgdesc="A command-line assistant for Arch Linux beginners..."
 arch=('any')
 url="https://github.com/alihaydarsucu/sucu"
 license=('MIT')
 depends=(
-  'bash'
-  'neofetch'
-  'htop'
-  'iotop-c'
-  'util-linux'
-  'procps-ng'
-  'systemd'
-  'iproute2'
-  'iputils'
-  'shadow'
-  'pacman'
-  'coreutils'
-  'gawk'
-  'sed'
-  'grep'
+  'bash' 'nload' 'neofetch' 'btop' 'iotop-c' 'util-linux'
+  'procps-ng' 'systemd' 'iproute2' 'iputils' 'shadow'
+  'pacman' 'coreutils' 'gawk' 'sed' 'grep'
 )
-optdepends=(
-  'yay: AUR helper support for package management'
-  'dialog: Interactive CLI interfaces'
-  'tree: Tree view of the filesystem'
-)
-source=('sucu')
+source=("$pkgname-$pkgver.tar.gz")
 md5sums=('SKIP')
 
 package() {
-  install -Dm755 "${srcdir}/sucu" "${pkgdir}/usr/bin/sucu"
+  install -Dm755 "$srcdir/$pkgname-$pkgver/sucu" "$pkgdir/usr/bin/sucu"
 }

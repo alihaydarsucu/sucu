@@ -290,13 +290,13 @@ cmd_system_monitor() {
         echo -e "1) ${COLORS[GREEN]}Genel sistem durumu (top)${COLORS[RESET]}"
         echo -e "2) ${COLORS[GREEN]}Disk kullanımı (iotop)${COLORS[RESET]}"
         echo -e "3) ${COLORS[GREEN]}Ağ trafiği (nload)${COLORS[RESET]}"
-        echo -e "4) ${COLORS[GREEN]}İşlemci kullanımı (htop)${COLORS[RESET]}"
+        echo -e "4) ${COLORS[GREEN]}İşlemci kullanımı (btop)${COLORS[RESET]}"
     else
         echo -e "${COLORS[CYAN]}System monitoring tools:${COLORS[RESET]}"
         echo -e "1) ${COLORS[GREEN]}System overview (top)${COLORS[RESET]}"
         echo -e "2) ${COLORS[GREEN]}Disk activity (iotop)${COLORS[RESET]}"
         echo -e "3) ${COLORS[GREEN]}Network traffic (nload)${COLORS[RESET]}"
-        echo -e "4) ${COLORS[GREEN]}CPU usage (htop)${COLORS[RESET]}"
+        echo -e "4) ${COLORS[GREEN]}CPU usage (btop)${COLORS[RESET]}"
     fi
     echo
     
@@ -325,10 +325,10 @@ cmd_system_monitor() {
             fi
             ;;
         4)
-            if command -v htop &>/dev/null; then
-                htop
+            if command -v btop &>/dev/null; then
+                btop
             else
-                print_error "$(if [[ "$SUCU_LANG" == "tr" ]]; then echo "htop yüklü değil"; else echo "htop not installed"; fi)"
+                print_error "$(if [[ "$SUCU_LANG" == "tr" ]]; then echo "btop yüklü değil"; else echo "btop not installed"; fi)"
             fi
             ;;
         *) print_error "${LANG_STRINGS[INVALID_CHOICE]}" ;;
