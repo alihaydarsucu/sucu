@@ -12,7 +12,7 @@ depends=(
   'pacman' 'coreutils' 'gawk' 'sed' 'grep'
 )
 
-source=("local://sucu")
+source=("sucu" "LICENSE")
 md5sums=('SKIP')
 
 package() {
