@@ -30,7 +30,7 @@ It’s not a full-featured desktop environment tool or a system control center. 
 Below is a preview of the main menu interface:
 
 <p align="center">
-    <img src="sucu_main_menu.png" alt="sucu main menu screenshot" width="600"/>
+    <img src="Readme Files/sucu_main_menu.png" alt="sucu main menu screenshot" width="600"/>
 </p>
 
 ## 🧰 Dependencies
@@ -65,7 +65,7 @@ All required dependencies are managed automatically during installation.
 
 ```bash
 git clone https://github.com/alihaydarsucu/sucu.git
-cd sucu
+cd sucu/sucu
 makepkg -si
 ```
 

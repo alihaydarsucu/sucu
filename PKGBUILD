@@ -4,7 +4,7 @@ pkgver=0.3.0
 pkgrel=1
 pkgdesc="A command-line assistant for Arch Linux beginners to explore and manage essential system tools and information"
 arch=('any')
-url="https://github.com/alihaydarsucu/sucu/blob/main/sucu/sucu"  
+url="https://github.com/alihaydarsucu/sucu"
 license=('MIT')
 depends=(
   'bash'
@@ -32,6 +32,5 @@ source=('sucu')
 md5sums=('SKIP')
 
 package() {
-  install -Dm755 "$srcdir/sucu" "$pkgdir/usr/bin/sucu"
+  install -Dm755 "${srcdir}/sucu" "${pkgdir}/usr/bin/sucu"
 }
-
